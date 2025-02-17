@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Landing Page - Lead Generation</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/common.css">
+</head>
+<body>
+    <nav class="navbar">
+        <i class="hamburger fa-solid fa-bars"></i>
+        <a href="#" class="nav-branding">LO<span style="color: #6538B2;">GO</span></a>
+        <ul class="nav-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <div class="row themeBg">
+            <div class="col-1 col-1-tb col-1-sm"></div>
+            <div class="col-10 col-10-tb col-10-sm">
+                <div class="spaceYx">
+                    <div class="contents">
+                        <h2>Welcome to the companyName the best newsletter list builder</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate vel animi dolorem.</p>
+                    </div>
+                    <div class="bnrgap">
+                        <div class="row">
+                            <div class="col-6 col-6-tb col-12-sm">
+                                <div class="floatLeft">
+                                    <figure class="bnrimage"></figure>
+                                </div>
+                            </div>
+                            <div class="col-6 col-6-tb col-12-sm">
+                                <div class="relative">
+                                    <div class="absolute">
+                                        <form class="formwrp">
+                                            <div class="formtitle">
+                                                <h5>Subscribe & Get Your Download</h5>
+                                                <p>Don't miss this Great Opportunity. Get it Now</p>
+                                            </div>
+                                            <p><input type="text" placeholder="Your Name" required></p>
+                                            <p><input type="text" placeholder="Your Email" required></p>
+                                            <p><input type="text" placeholder="Your Phone" required></p>
+                                            <button class="formbtn">Download</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1 col-1-tb col-1-sm"></div>
+        </div>
+        <div class="row fadewhite">
+            <div class="col-1 col-1-tb col-1-sm"></div>
+            <div class="col-10 col-10-tb col-10-sm">
+                <div class="text-content">
+                    <h2 class="fancy">How it Works</h2>
+                    <div class="row">
+                        <div class="col-4 col-4-tb col-12-sm">
+                            <div class="blocks">
+                                <figure class="blockmidicon">
+                                    <img src="img/pencil.svg">
+                                </figure>
+                                <h5>1. Subscribe to the List</h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum obcaecati possimus facere sapiente maiores iusto, nulla quaerat fuga fugiat nesciunt.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-4 col-4-tb col-12-sm">
+                            <div class="blocks">
+                                <figure class="blockmidicon">
+                                    <img src="img/Envelope.svg">
+                                </figure>
+                                <h5>2. Confirm your email</h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum obcaecati possimus facere sapiente maiores iusto, nulla quaerat fuga fugiat nesciunt.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-4 col-4-tb col-12-sm">
+                            <div class="blocks">
+                                <figure class="blockmidicon">
+                                    <img src="img/cloud_download.svg">
+                                </figure>
+                                <h5>3. Download your Product</h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum obcaecati possimus facere sapiente maiores iusto, nulla quaerat fuga fugiat nesciunt.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1 col-1-tb col-1-sm"></div>
+        </div>
+    </main>
+
+
+    <script src="https://kit.fontawesome.com/a692e1c39f.js" crossorigin="anonymous"></script>
+    <script>
+        const navmenu = document.querySelector('.nav-menu');
+        const toggleButton = document.querySelector('.hamburger');
+
+        toggleButton.addEventListener('click', () => {
+            navmenu.classList.toggle('toggle');
+            toggleButton.classList.toggle('fa-close');
+        });
+    </script>
+</body>
+</html>
